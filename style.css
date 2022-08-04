@@ -1,0 +1,75 @@
+:root {
+    --clr-1: #F7F7F7;
+    --clr-2: #F4F9F9;
+    --accent: #6A67CE;
+    --font-clr: #000;
+}
+
+* {
+    outline: none;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--font-clr);
+    background-color: var(--clr-1);
+}
+
+form {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--clr-2);
+}
+
+input[type='text'],
+input[type='submit'] {
+    font-size: 1.25em;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+input[type='text'] {
+    width: min(400px, 80%);
+    border: 2px solid #898989;
+}
+
+input[type='submit'] {
+    color: #FFF;
+    background-color: var(--accent);
+    cursor: pointer;
+    letter-spacing: 1.25px;
+    border: 2px solid var(--accent);
+}
+
+#result {
+    margin: auto;
+    padding: 1.5rem;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+#word {
+    margin: 0 0 .5rem 0;
+    font-size: 2.5rem;
+    color: var(--accent);
+    letter-spacing: 1.5px;
+}
+
+#part-of-speech {
+    margin: 0;
+    color: #787878;
+}
