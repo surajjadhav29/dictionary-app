@@ -1,1 +1,3 @@
-# dictionary-app
+# Dictionary App
+
+- Built using HTML, CSS, JS, API
